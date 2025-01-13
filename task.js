@@ -25,3 +25,13 @@ const favoriteFruits = ["Apple", "Banana", "Cherry", "Mango", "Orange"];
 for (let i = 0; i < favoriteFruits.length; i++) {
 	console.log(favoriteFruits[i]);
 }
+
+
+const fruits = ['apple', 'banana', 'cherry', 'mango', 'orange'];
+
+for (let i = 0; i < fruits.length; i++) {
+	if (fruits[i] === 'cherry') {
+		console.log("index of 'cherry' :", i);
+		break;
+	}
+}
