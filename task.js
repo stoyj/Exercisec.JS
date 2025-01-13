@@ -18,3 +18,10 @@ const numbers = 5;
 for (let i = 1; i <= 10; i++) {
 	console.log(`${numbers} x ${i} = ${numbers * i}`);
 }
+
+
+const favoriteFruits = ["Apple", "Banana", "Cherry", "Mango", "Orange"];
+
+for (let i = 0; i < favoriteFruits.length; i++) {
+	console.log(favoriteFruits[i]);
+}
