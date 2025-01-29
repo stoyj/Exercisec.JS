@@ -1,3 +1,5 @@
+"use strict";
+
 // 2. Find the Perfect Short-and-Sweet Pair
 
 // task2
