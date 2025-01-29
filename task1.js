@@ -1,5 +1,7 @@
 "use strict";
 
+// 1. Create a Non-Stop Road Trip Playlist
+
 //  1. task
 function roadTripPlaylist(playlist, maxDuration) {
   playlist.sort((a, b) => a.duration - b.duration);
@@ -28,3 +30,5 @@ const playlist = [
 
 const result = roadTripPlaylist(playlist, 15);
 console.log(result);
+
+// ["Song A", "Song B", "Song D"] // Total: 14.5 minutes
